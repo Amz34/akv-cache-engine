@@ -1,9 +1,9 @@
 # akv-cache-engine: Cache Engineering for Autonomous AI Agents
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://python.org)
-[![Tested On](https://img.shields.io/badge/Architecture-ARM64%20%7C%20x86__64-orange.svg)]()
-[![Build Status](https://img.shields.io/badge/Build-Passing-success.svg)]()
+[![CI](https://github.com/Amz34/akv-cache-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Amz34/akv-cache-engine/actions/workflows/ci.yml)
+[![Python: 3.11+](https://img.shields.io/badge/Python-3.11%2B-brightgreen.svg)](https://python.org)
+[![Architecture: ARM64 / x86_64](https://img.shields.io/badge/Architecture-ARM64%20%7C%20x86__64-orange.svg)]()
 
 Production reference implementation of **Engine-Level Cache Engineering** for multi-turn AI agents, inspired by Shubham Saboo's architectural insights and the seminal Tsinghua University research (*Cache Engineering for Agents*, Fu et al., arXiv:2610.28577).
 
@@ -130,3 +130,8 @@ print(f"Savings Ratio: {ctx['cache_savings_ratio'] * 100:.2f}%")
 
 ## License
 MIT License. Free for commercial and research use.
+
+---
+
+Part of [my always-on agent stack](https://github.com/Amz34) · [Awesome Agent Infrastructure](https://github.com/Amz34/awesome-agent-infrastructure) (135 live-checked building blocks).
+
